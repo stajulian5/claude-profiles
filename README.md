@@ -2,7 +2,7 @@
 
 > **Outdated (November 2026).** This copy-and-re-sign approach stopped working with Claude 5.1231.x: re-signed copies still chat, but can no longer link a session to the Mac ("Couldn't link this session to a computer"), because the device key lives in the Secure Enclave and only the Anthropic-signed app can use it.
 >
-> **Use [claude-dual-accounts](https://github.com/stajulian5/claude-dual-accounts) instead.** It runs the official `/Applications/Claude.app` twice, each with its own data folder, so both accounts stay linked to the computer and update themselves. (That repo is private.)
+> **Use [claude-dual-accounts](https://github.com/stajulian5/claude-dual-accounts) instead.** It runs the official `/Applications/Claude.app` twice, each with its own data folder, so both accounts stay linked to the computer and update themselves.
 
 Run two (or more) Claude desktop apps side by side on macOS, each signed in to a different account. In this setup that means **Mica** (work) and **Personal**.
 
